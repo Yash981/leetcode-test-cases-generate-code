@@ -7,12 +7,11 @@ def generate_testcases():
 
     if randomParenthesis % 2 == 1:
         randomParenthesis -= 1
-    p = randomParenthesis
     openedUse = randomParenthesis//2
     closeUse = randomParenthesis//2
     arr1 = []
     while randomcharlength > 0 or randomParenthesis > 0:
-        perform = random.randint(0, 3)
+        perform = random.randint(0, 2)
         if perform == 0 and randomcharlength:
             arr1.append(random.choice(chars))
             randomcharlength -= 1
