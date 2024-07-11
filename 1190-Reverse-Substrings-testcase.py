@@ -7,7 +7,6 @@ def generate_testcases():
 
     if randomParenthesis % 2 == 1:
         randomParenthesis -= 1
-    p = randomParenthesis
     openedUse = randomParenthesis//2
     closeUse = randomParenthesis//2
     arr1 = []
